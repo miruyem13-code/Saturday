@@ -1,0 +1,25 @@
+/* Keep compact dashboard proportions while maintaining readable secondary text. */
+.nav-item{font-size:13px;color:#6f6c7b}
+.description{font-size:12px;color:#6c6477;min-height:44px}
+.job-card h2{font-size:18px;letter-spacing:-.5px}
+.company-name,.job-facts{font-size:11px;color:#7c7289}
+.badges{font-size:10px}
+.morning-badge{color:#8c713b}.afternoon-badge{color:#7b66a3}.open-badge{color:#4e8663}
+.card-actions button{font-size:12px;color:#665874}
+.card-actions .apply-button{color:#7754b8}
+.card-pay>span:last-child{font-size:10px;color:#8c7d9b}
+.card-pay strong{font-size:19px}
+.page-heading p{font-size:13px;color:#82798d}
+.global-search input{font-size:13px}
+.tabs button,.filter-button{font-size:12px}
+.results-bar{font-size:12px}
+.job-context .icon-button{margin-left:auto;color:#8b73aa}
+.job-context>span+.icon-button{margin-left:0}
+.form-error{background:#fff0ef;color:#a64942!important;padding:12px;margin-top:15px;border-radius:6px}
+.modal p,.candidate-card>p,.answer p{color:#786783}
+.modal .form-hint{color:#8e7b9c!important}
+.sidebar{overflow-y:auto}
+.candidate-card p,.question h3,.answer p,.slide blockquote{overflow-wrap:anywhere}
+@media(max-width:1150px) and (min-width:951px){.job-card h2{font-size:16px}.card-actions button{font-size:11px}.badges{font-size:9px}.description{font-size:11px;min-height:60px}.nav-item{font-size:11px}}
+@media(max-width:700px){.tabs button,.filter-button{font-size:10px}.global-search input{font-size:11px}.job-card h2{font-size:17px}.card-actions button{font-size:11px}.nav-item{font-size:13px}.job-context>span+.icon-button{margin-left:auto}.sidebar-bottom{padding-top:20px}.results-bar{font-size:11px}}
+@media(max-width:480px){.job-card h2{font-size:19px}.description{min-height:0}.card-actions button{font-size:12px}.page-heading p{font-size:12px}}
